@@ -4,8 +4,8 @@ import time
 import pytest
 from pytest_bdd import scenarios, given, then, parsers
 
-from .Pages.dashboard_page import dashboard_page
-from .Pages.login_page import login_page
+from .Pages.b_dashboard_page import dashboard_page
+from .Pages.a_login_page import login_page
 
 script_dir = os.path.dirname(os.path.abspath(__file__))
 parent_dir = os.path.abspath(os.path.join(script_dir, ".."))

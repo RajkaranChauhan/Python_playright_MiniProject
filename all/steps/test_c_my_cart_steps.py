@@ -3,7 +3,7 @@ import os
 import pytest
 from pytest_bdd import scenarios, given, then, when, parsers
 
-from .Pages.my_cart_page import my_cart
+from .Pages.c_my_cart_page import my_cart
 
 script_dir = os.path.dirname(os.path.abspath(__file__))
 parent_dir = os.path.abspath(os.path.join(script_dir, ".."))

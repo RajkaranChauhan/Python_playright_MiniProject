@@ -4,7 +4,7 @@ import pytest
 from playwright.sync_api import Page
 from pytest_bdd import scenarios, when, then, parsers
 
-from all.steps.Pages.orders_page import orders_page
+from all.steps.Pages.e_orders_page import orders_page
 
 script_dir = os.path.dirname(os.path.abspath(__file__))
 parent_dir = os.path.abspath(os.path.join(script_dir, ".."))

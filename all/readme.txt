@@ -1,5 +1,5 @@
-PS D:\Dev\Python\PlayWrightPython\MiniProjectPomBdd\all\steps> pytest test_login_steps.py ,test_dashboard_steps.py , test_my_cart_steps.py ,test_payment_method_s
-teps.py,test_orders_steps.py -s
+PS D:\Dev\Python\PlayWrightPython\MiniProjectPomBdd\all\steps>
+pytest a_test_login_steps.py ,b_test_dashboard_steps.py , c_test_my_cart_steps.py ,d_test_payment_method_steps.py,e_test_orders_steps.py -s
 
 test
 

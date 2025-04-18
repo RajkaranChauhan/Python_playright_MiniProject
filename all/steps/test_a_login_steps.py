@@ -3,7 +3,7 @@ import os
 import pytest
 from pytest_bdd import scenarios, given, when, then, parsers
 
-from .Pages.login_page import login_page
+from .Pages.a_login_page import login_page
 
 script_dir = os.path.dirname(os.path.abspath(__file__))
 print(script_dir)
